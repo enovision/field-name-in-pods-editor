@@ -1,0 +1,7 @@
+Found a bug? Have a great feature idea? Get on GitHub and tell us about it and we'll get right on it: https://pods.io/submit/
+
+Our GitHub has the full list of all prior releases of Pods: https://github.com/pods-framework/pods/releases
+
+= 1.0.0 - December 2nd, 2024 =
+
+* Initial release

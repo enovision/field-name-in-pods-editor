@@ -1,0 +1,10 @@
+[id^="pods-settings-group"] {
+    border: 1px solid teal;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+[id^="pods-settings-group"] h2 {
+    font-size: 25px;
+    color: teal;
+}
