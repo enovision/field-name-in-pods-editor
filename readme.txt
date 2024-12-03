@@ -9,15 +9,22 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The plugin shows the fieldname of pod definitions below the label when editing pod content.
+This plugin adds the feature to the Pods plugin, displaying the field name
+of pod fields below the label when editing the pod.
 
 == Description ==
-When this plugin is installed together with the Pods plugin, it does only one thing, it will show in the editor
-under the field labels the field name in the pod configuration.
+When the plugin is installed alongside the Pods plugin, its main function is
+to display the field names in the pod configuration below the field labels in the editor.
 
-Pods is a framework for creating, managing, and deploying customized content types and fields for any project.
+Pods is a framework designed for creating, managing, and deploying customized content
+types and fields for various projects.
 
-== Requirement ==
-This plugin requires to have the Pods plugin installed.
+== Installation ==
+1. Upload the `field-name-in-pods-editor` folder to the `wp-content\plugins` directory.
+2. Activate the plugin
 
+== Screenshots ==
+1. Sample of the result after activating this plugin editing a pod in the editor
 
+= 1.0.0 =
+* Initial release

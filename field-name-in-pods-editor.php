@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 
 /**
  * Plugin Name: Field Name in Pods Editor
- * Plugin URI: https://github.com/enovision/field-name-in-pods-editor-plugin
+ * Plugin URI: https://github.com/enovision/field-name-in-pods-editor
  * Description: Shows the pod configuration field name below the label when editing pods.
  * Version: 1.0.0
  * Author: Johan van de Merwe
