@@ -1,12 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const labels = document.querySelectorAll('label[for^="pods-form-ui-pods-meta-"]');
+    let postfix = "meta";
+    let labels = document.querySelectorAll('label[for^="pods-form-ui-pods-' + postfix + '-"]');
+
+    if (labels.length === 0) {
+        postfix = "field";
+        labels = document.querySelectorAll('label[for^="pods-form-ui-pods-' + postfix + '-"]');
+    }
 
     labels.forEach(function (label) {
-        // Haal de waarde van het "for" attribuut op
         const forAttributeValue = label.getAttribute('for');
 
-// Splits de waarde op basis van "pods-form-ui-pods-meta-"
-        const parts = forAttributeValue.split('pods-form-ui-pods-meta-');
+        const parts = forAttributeValue.split('pods-form-ui-pods-'+ postfix +'-');
         const podVariable = parts[1].replace(/-/g, '_');
 
         const div = document.createElement('div');
