@@ -1,8 +1,7 @@
 === Field Name in Pods Editor ===
-Contributors: johanvandermerwe
+Contributors: jvandemerwe
 Tags: pods, custom post types, custom fields, wordpress
 Requires Plugins: pods
-Requires at least: 6.0
 Tested up to: 6.7.1
 Stable tag: 1.0.0
 License: GPLv2 or later
