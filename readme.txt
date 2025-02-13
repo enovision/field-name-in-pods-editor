@@ -1,30 +1,33 @@
 === Field Name in Pods Editor ===
-Author: Johan van de Merwe
-Tags: pods, custom post types, custom fields
+Contributors: johanvandermerwe
+Tags: pods, custom post types, custom fields, wordpress
 Requires Plugins: pods
 Requires at least: 6.0
 Tested up to: 6.7.1
-Requires PHP: 7.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin adds the feature to the Pods plugin, displaying the field name
-of pod fields below the label when editing the pod.
+This plugin enhances the Pods plugin by displaying the field names of pod fields below their labels when editing a pod. 
 
 == Description ==
-When the plugin is installed alongside the Pods plugin, its main function is
-to display the field names in the pod configuration below the field labels in the editor.
+Field Name in Pods Editor is a lightweight WordPress plugin that improves the usability of the Pods plugin by displaying field names below the field labels in the Pods editor. 
 
-Pods is a framework designed for creating, managing, and deploying customized content
-types and fields for various projects.
+### Features:
+- Displays field names in the Pods field editor for better clarity.
+- Works seamlessly with the existing Pods interface.
+- Does not alter any Pods functionality, only enhances visibility.
+
+Pods is a powerful framework for creating, managing, and deploying custom content types and fields in WordPress.
 
 == Installation ==
-1. Upload the `field-name-in-pods-editor` folder to the `wp-content\plugins` directory.
-2. Activate the plugin
+1. Upload the `field-name-in-pods-editor` folder to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Ensure the Pods plugin is installed and activated for this plugin to work.
 
 == Screenshots ==
-1. Sample of the result after activating this plugin editing a pod in the editor
+1. **Field Names Displayed** - Example of how the field names appear below field labels in the Pods editor.
 
+== Changelog ==
 = 1.0.0 =
-* Initial release
+* Initial release.
